@@ -1,0 +1,84 @@
+{
+  "lastUpdated": "2026-08-20",
+  "source": "Manually compiled from official pricing pages. Prices may include local taxes (VAT/GST) where applicable.",
+  "services": [
+    {
+      "id": "claude-pro",
+      "name": "Claude Pro",
+      "provider": "Anthropic",
+      "color": "#d97706",
+      "prices": {
+        "us": { "amount": 20.00, "currency": "USD", "period": "monthly" },
+        "br": { "amount": 100.00, "currency": "BRL", "period": "monthly", "note": "Approximate — billed in USD, converted by payment provider" },
+        "ar": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Billed in USD" },
+        "tr": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Billed in USD" },
+        "in": { "amount": 1750.00, "currency": "INR", "period": "monthly" },
+        "ru": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Billed in USD, availability may vary" },
+        "de": { "amount": 18.00, "currency": "EUR", "period": "monthly", "note": "Excludes VAT" },
+        "gb": { "amount": 16.00, "currency": "GBP", "period": "monthly" },
+        "jp": { "amount": 3000.00, "currency": "JPY", "period": "monthly" },
+        "kr": { "amount": 27000.00, "currency": "KRW", "period": "monthly" },
+        "au": { "amount": 32.00, "currency": "AUD", "period": "monthly" },
+        "mx": { "amount": 350.00, "currency": "MXN", "period": "monthly" },
+        "cl": { "amount": 18900.00, "currency": "CLP", "period": "monthly" },
+        "co": { "amount": 80000.00, "currency": "COP", "period": "monthly" },
+        "pl": { "amount": 80.00, "currency": "PLN", "period": "monthly" },
+        "ua": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Billed in USD" },
+        "za": { "amount": 360.00, "currency": "ZAR", "period": "monthly" },
+        "eg": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Billed in USD" }
+      }
+    },
+    {
+      "id": "chatgpt-plus",
+      "name": "ChatGPT Plus",
+      "provider": "OpenAI",
+      "color": "#10b981",
+      "prices": {
+        "us": { "amount": 20.00, "currency": "USD", "period": "monthly" },
+        "br": { "amount": 110.00, "currency": "BRL", "period": "monthly" },
+        "ar": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Billed in USD + taxes" },
+        "tr": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Billed in USD + taxes" },
+        "in": { "amount": 1950.00, "currency": "INR", "period": "monthly" },
+        "ru": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Limited availability" },
+        "de": { "amount": 22.00, "currency": "EUR", "period": "monthly", "note": "Includes 19% VAT" },
+        "gb": { "amount": 20.00, "currency": "GBP", "period": "monthly", "note": "Includes 20% VAT" },
+        "jp": { "amount": 3000.00, "currency": "JPY", "period": "monthly" },
+        "kr": { "amount": 29000.00, "currency": "KRW", "period": "monthly" },
+        "au": { "amount": 30.00, "currency": "AUD", "period": "monthly" },
+        "mx": { "amount": 389.00, "currency": "MXN", "period": "monthly" },
+        "cl": { "amount": 19000.00, "currency": "CLP", "period": "monthly" },
+        "co": { "amount": 86000.00, "currency": "COP", "period": "monthly" },
+        "pl": { "amount": 95.00, "currency": "PLN", "period": "monthly" },
+        "ua": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Billed in USD" },
+        "za": { "amount": 399.00, "currency": "ZAR", "period": "monthly" },
+        "eg": { "amount": 20.00, "currency": "USD", "period": "monthly", "note": "Billed in USD" }
+      }
+    },
+    {
+      "id": "gemini-advanced",
+      "name": "Gemini Advanced",
+      "provider": "Google",
+      "color": "#3b82f6",
+      "prices": {
+        "us": { "amount": 19.99, "currency": "USD", "period": "monthly", "note": "Google One AI Premium plan" },
+        "br": { "amount": 97.00, "currency": "BRL", "period": "monthly" },
+        "ar": { "amount": 1950.00, "currency": "ARS", "period": "monthly" },
+        "tr": { "amount": 249.99, "currency": "TRY", "period": "monthly" },
+        "in": { "amount": 1950.00, "currency": "INR", "period": "monthly" },
+        "ru": { "amount": 19.99, "currency": "USD", "period": "monthly", "note": "Limited availability" },
+        "de": { "amount": 21.99, "currency": "EUR", "period": "monthly" },
+        "gb": { "amount": 19.99, "currency": "GBP", "period": "monthly" },
+        "jp": { "amount": 2900.00, "currency": "JPY", "period": "monthly" },
+        "kr": { "amount": 29900.00, "currency": "KRW", "period": "monthly" },
+        "au": { "amount": 32.99, "currency": "AUD", "period": "monthly" },
+        "mx": { "amount": 379.00, "currency": "MXN", "period": "monthly" },
+        "cl": { "amount": 14900.00, "currency": "CLP", "period": "monthly" },
+        "co": { "amount": 62900.00, "currency": "COP", "period": "monthly" },
+        "pl": { "amount": 89.99, "currency": "PLN", "period": "monthly" },
+        "ua": { "amount": 19.99, "currency": "USD", "period": "monthly", "note": "Billed in USD" },
+        "za": { "amount": 349.00, "currency": "ZAR", "period": "monthly" },
+        "eg": { "amount": 349.99, "currency": "EGP", "period": "monthly" }
+      }
+    }
+  ]
+}
